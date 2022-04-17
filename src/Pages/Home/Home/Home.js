@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import ContactForm from '../../Contact/ContactForm';
 import useServices from '../../Hooks/useServices';
 import SingleService from '../Services/SingleService';
 import Banner from './Banner/Banner';
@@ -23,10 +25,13 @@ const Home = () => {
                         }
                     </div>
                     <div>
-                        <button className='btn-lg  w-25 mx-auto btn-link bg-white text-decoration-none border-0 d-block my-4'>Show All....</button>
+                        <Link to="services"> <button className='btn-lg  w-25 mx-auto btn-link bg-white text-decoration-none border-0 d-block my-4'>Show All....</button></Link>
                     </div>
                 </section>
             </div>
+            <ContactForm>
+                
+            </ContactForm>
 
             
         </>

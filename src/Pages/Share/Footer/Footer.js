@@ -16,6 +16,7 @@ const Footer = () => {
                                 <Link className=' d-block text-white text-decoration-none fs-6' to="services">Services</Link>
                                 <Link className=' d-block text-white text-decoration-none fs-6' to="about">About</Link>
                                 <Link className=' d-block text-white text-decoration-none fs-6' to="blogs">Blogs</Link>
+                                <Link className=' d-block text-white text-decoration-none fs-6' to="contact">Contact</Link>
                             </div>
                             
                         </div>
@@ -26,9 +27,11 @@ const Footer = () => {
                     <div className='col-lg-3 col-sm-12'>
                        
                         <div>
-                            <Link className=' d-block text-white text-decoration-none fs-6' to="contact">Contact</Link>
-                            <Link className=' d-block text-white text-decoration-none fs-6' to="login">Login</Link>
-                            <Link className=' d-block text-white text-decoration-none fs-6' to="signin">Sign in</Link>
+                            <h4 className='mb-5'>Follow Link </h4>
+                            
+                            <a href="#" className='me-4 bg-white p-2  rounded rounded-circle fs-5' > <i className='fa fa-facebook'></i></a>
+                            <a href="#" className='me-4 bg-white p-2  rounded rounded-circle fs-5' > <i className='fa fa-twitter'></i></a>
+                            <a href="#" className='me-4 bg-white p-2  rounded rounded-circle fs-5' > <i className='fa fa-youtube'></i></a>
                         </div>
                     </div>
                 </div>
