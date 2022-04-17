@@ -18,8 +18,8 @@ const Signin = () => {
 
    
     return (
-        <div className="container ">
-            <div className='form mx-auto py-5'>
+        <div className="container my-5  ">
+            <div className='form mx-auto rounded py-5'>
                 <h1>Please Register!</h1>
                 <form >
                     <div className="input-groupe">

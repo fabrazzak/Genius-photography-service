@@ -21,13 +21,13 @@ const Footer = () => {
                             
                         </div>
                     </div>
-                    <div className='col-lg-6 col-sm-12 text-align-center d-flex align-iteams-center justify-content-center'>
+                    <div className='col-lg-6 col-sm-12 text-align-center  mt-3 d-flex align-iteams-center justify-content-center'>
                         <h1>JASON BURNS </h1>
                     </div>
                     <div className='col-lg-3 col-sm-12'>
                        
-                        <div>
-                            <h4 className='mb-5'>Follow Link </h4>
+                        <div className='mb-5'>
+                            <h4 className='my-5'>Follow Link </h4>
                             
                             <a href="#" className='me-4 bg-white p-2  rounded rounded-circle fs-5' > <i className='fa fa-facebook'></i></a>
                             <a href="#" className='me-4 bg-white p-2  rounded rounded-circle fs-5' > <i className='fa fa-twitter'></i></a>

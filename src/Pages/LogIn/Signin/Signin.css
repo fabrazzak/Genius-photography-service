@@ -1,10 +1,21 @@
 .form{
 
-    height: 600px;
+    height: 650px;
     width: 450px;
     border: 2px solid rgba(190, 190, 190, 0.583);
     padding: 30px;
 }
 .input-groupe{
     padding: 15px 0px;
+}
+
+@media only screen and (max-width:700px){
+    .form{
+
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgba(190, 190, 190, 0.583);
+    padding: 30px;
+}
+    
 }

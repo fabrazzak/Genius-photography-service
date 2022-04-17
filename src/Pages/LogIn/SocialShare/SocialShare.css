@@ -1,0 +1,13 @@
+.content {
+    content: '';
+    border-bottom: 2px solid rgb(157, 157, 157);
+    width: 200px;
+}
+.content-container{
+    justify-content: center;
+    align-items: center;
+}
+.content-p{
+   
+    margin:10px 20px 0px 20px;
+}
