@@ -1,0 +1,10 @@
+.form{
+
+    height: 600px;
+    width: 450px;
+    border: 2px solid rgba(190, 190, 190, 0.583);
+    padding: 30px;
+}
+.input-groupe{
+    padding: 15px 0px;
+}
