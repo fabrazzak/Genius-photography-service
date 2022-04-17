@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 
 const SingleService = ({service}) => {
+    const navigate=useNavigate();
     const {id,img,name,price,description}=service;
-   
+    const handleCheckout=(id)=>{
+       navigate(`services/${id}`);
+
+    }
 
     return (
         <div className="col">
@@ -12,7 +17,7 @@ const SingleService = ({service}) => {
                     <h3 className="card-title">{name}</h3>
                     <p className="card-text">{description}</p>
                     <h5 className="card-title">Price: ${price}</h5>
-                    <button className='hire-me-btn btn-lg w-100 border mt-4'>Hire Me </button>
+                    <button onClick={()=>handleCheckout(id)} className='hire-me-btn btn-lg w-100 border mt-4'>Hire Me </button>
                     </div>
             </div>
         </div>

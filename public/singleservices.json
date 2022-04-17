@@ -1,0 +1,46 @@
+
+
+[
+    {
+        "id": 1,
+        "name": "STUDIO SHOOTING",
+        "price": "300",
+        "description": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam vene natis ex curibis.",
+        "img": "https://i.ibb.co/5kkhKv4/shoting.jpg"
+    },
+    {
+        "id": 2,
+        "name": "PHOTO EDITING",
+        "price": "100",
+        "description": "Unlock the cinematic power of color, lighting, and composition by harnessing the creative techniques favored by cinematographers. .",
+        "img": "https://i.ibb.co/4fVXh9C/editing.jpg"
+    },
+    {
+        "id": 3,
+        "name": "EDITORIALS",
+        "price": "150",
+        "description": "A cleverly applied blur can give images a special quality that enhances focus, movement, or fosters a dreamlike, ethereal mood.",
+        "img": "https://i.ibb.co/hMtSQW5/edirials.jpg"
+    },
+    {
+        "id": 4,
+        "name": "FINE RETOUCHING",
+        "price": "180",
+        "description": "A cleverly applied blur can give images a special quality that enhances focus, movement, or fosters a dreamlike, ethereal mood.",
+        "img": "https://i.ibb.co/r4vqbgj/retuching.jpg"
+    },
+    {
+        "id": 5,
+        "name": "POST-PRODUCTION",
+        "price": "100",
+        "description": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam vene natis ex curibis.",
+        "img": "https://i.ibb.co/wWRb34Q/production.jpg"
+    },
+    {
+        "id": 6,
+        "name": "PRINTING",
+        "price": "300",
+        "description": "Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam vene natis ex curibis.",
+        "img": "https://i.ibb.co/7b6Nt5J/printing.jpg"
+    }
+]

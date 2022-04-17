@@ -3,8 +3,16 @@ import './Header.css'
 import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import CustomLink from '../CustomLink/CustomLink';
+import auth from '../../../firebase.init';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { signOut } from 'firebase/auth';
+
 
 const Header = () => {
+    const [user, loading, error] = useAuthState(auth);
+    const logOut=()=>{
+        signOut(auth);
+    }
     return (
         <Navbar className='py-4 fs-4 navbar-bg' expand="lg">
             <Container>
@@ -21,8 +29,19 @@ const Header = () => {
                         <Nav.Link as={CustomLink} to="about">About</Nav.Link>
                         <Nav.Link as={CustomLink} to="blogs">Blogs</Nav.Link>
                         <Nav.Link as={CustomLink} to="contact">Contact</Nav.Link>
-                        <Nav.Link as={CustomLink} to="login">Login</Nav.Link>
-                        <Nav.Link as={CustomLink} to="signin">Sign in</Nav.Link>
+
+                        {
+                            user ? <a  onClick={logOut} className=" border-0 mt-1 text-decoration-none logout"><span className='ms-2'>Log out </span>
+                                <img src={user?.photoURL} alt="" />
+                            </a>
+                            : <>
+                                <Nav.Link as={CustomLink} to="login">Login</Nav.Link>
+                                 <Nav.Link as={CustomLink} to="signin">Sign in</Nav.Link>
+                                 </>
+                               
+                        }
+                        
+                        
 
                        
                     </Nav>

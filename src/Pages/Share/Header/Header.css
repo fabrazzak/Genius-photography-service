@@ -2,5 +2,13 @@
     background-color: rgba(0, 0, 0, 0.172);
 }
 
+.logout{
+    background:none;
+    color: black;
 
-
+}
+.logout img{
+    width: 50px;
+    border-radius: 50%;
+    
+}

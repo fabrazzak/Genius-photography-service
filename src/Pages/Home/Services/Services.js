@@ -5,7 +5,6 @@ import SingleService from './SingleService';
 const Services = () => {
     const [services, setServices] =useServices();
     const ThreeService= services.filter(service => service.id<4 );
-    console.log(ThreeService);
 
     return (
         <div className='container py-lg-5'>
