@@ -11,9 +11,9 @@ const ContactForm = () => {
             <div className="row">
                 <div className="col-md-4">
                     <ul>
-                        <li className='list-iteam'><span className='me-3 fs-lg-4 text-primary'><i className='fa fa-envelope'></i></span> Email: jasonburns@gmail.com</li>
-                        <li className='list-iteam'> <span className='me-3 fs-lg-4 fs-6 text-primary'><i className='fa fa-edge'></i></span> Web: https://www.jasonburns.com</li>
-                        <li className='list-iteam'><span className='me-3 fs-lg-4 text-primary'><i className='fa fa-phone'></i></span> Phone: 01775832654</li>                       
+                        <li className='list-iteam'><span className='me-3 fs-lg-4 text-primary'><i className='fa fa-envelope'></i></span><span className='fs-sm-6'> Email: jasonburns@gmail.com</span></li>
+                        <li className='list-iteam'> <span className='me-3 fs-lg-4 fs-5 text-primary'><i className='fa fa-edge'></i></span> <span className='fs-sm-6'>Web: https://www.jasonburns.com</span></li>
+                        <li className='list-iteam'><span className='me-3 fs-lg-4 text-primary'><i className='fa fa-phone'></i></span><span className='fs-sm-6'> Phone: 01775832654</span> </li>                       
                     </ul>
 
                 </div>
