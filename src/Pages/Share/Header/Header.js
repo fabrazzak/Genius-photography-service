@@ -14,7 +14,7 @@ const Header = () => {
         signOut(auth);
     }
     return (
-        <Navbar className='py-4 fs-4 navbar-bg' sticky='top' expand="lg">
+        <Navbar className='py-2 fs-4 navbar-bg' sticky='top' expand="lg">
             <Container>
                 <Navbar.Brand as={Link} to="/" className='fs-3 fw-bold'>JASON BURNS</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
@@ -31,9 +31,10 @@ const Header = () => {
                         <Nav.Link as={CustomLink} to="contact">Contact</Nav.Link>
 
                         {
-                            user ? <a  onClick={logOut} className=" border-0 mt-1 text-decoration-none logout"><span className='ms-2'>Log out </span>
+                            user ? <Nav.Link as={CustomLink} to="login"> <button onClick={logOut} as={CustomLink} to="login" className=" border-0 text-decoration-none logout d-flex justify-content-center align-items-center " >Log out 
                                 <img src={user?.photoURL} alt="" />
-                            </a>
+                            </button></Nav.Link>
+                           
                             : <>
                                 <Nav.Link as={CustomLink} to="login">Login</Nav.Link>
                                  <Nav.Link as={CustomLink} to="signin">Sign in</Nav.Link>
