@@ -11,7 +11,7 @@ const FourOFour = () => {
     return (
         <div >
             <div onClick={handleOnclick} className='d-flex fourOfour justify-content-center'>
-                <img src={fourOfour} alt="" />
+                <img src={fourOfour} className="img-fluid" alt="" />
                       
             </div>
         </div>
