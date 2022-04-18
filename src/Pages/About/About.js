@@ -15,7 +15,7 @@ const About = () => {
                         <h4 className='fst-italic text-info '>and more</h4>
                     </div>
                     <p className='mx-lg-5 '>
-                        My name is Abdur Razzak.My dream is to build a career as a professional web developer.I'm willing to work as hard as I can to be a full-stack web developer.I am currently working as a WordPress developer at Upwork Marketplace. </p>
+                        My name is Abdur Razzak.My dream is to build a career as a professional full-stack web developer.I want to work as hard as a full-stack web developer.I am currently working as a WordPress developer at Upwork Marketplace. </p>
                 </div>
             </div>
         </div>
