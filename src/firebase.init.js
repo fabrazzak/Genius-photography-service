@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD5ABsxO_sUP7ClfoYc-G6DP1QrUtpbaTE",
-    authDomain: "genius-photography-service.firebaseapp.com",
-    projectId: "genius-photography-service",
-    storageBucket: "genius-photography-service.appspot.com",
-    messagingSenderId: "247965554726",
-    appId: "1:247965554726:web:48affc69811144e5d0aee7"
+    apiKey:process.env.REACT_APP_apiKey,
+    authDomain:process.env.REACT_APP_authDomain,
+    projectId:process.env.REACT_APP_projectId,
+    storageBucket:process.env.REACT_APP_storageBucket,
+    messagingSenderId:process.env.REACT_APP_messagingSenderId,
+    appId:process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
