@@ -10,10 +10,10 @@ const ContactForm = () => {
                 <h1 className='text-center text-primary py-lg-3'>Contact Me</h1>
             <div className="row">
                 <div className="col-md-4">
-                    <ul>
-                        <li className='list-iteam'><span className='me-3 fs-lg-4 text-primary'><i className='fa fa-envelope'></i></span><span className='fs-sm-6'> Email: jasonburns@gmail.com</span></li>
-                        <li className='list-iteam'> <span className='me-3 fs-lg-4 fs-5 text-primary'><i className='fa fa-edge'></i></span> <span className='fs-sm-6'>Web: https://www.jasonburns.com</span></li>
-                        <li className='list-iteam'><span className='me-3 fs-lg-4 text-primary'><i className='fa fa-phone'></i></span><span className='fs-sm-6'> Phone: 01775832654</span> </li>                       
+                    <ul className='w-100'>
+                        <li className='list-iteam '><span className='me-3 fs-lg-4 text-primary'><i className='fa fa-envelope'></i></span><span className='fs-sm-6'> Email: jasonburns@gmail.com</span></li>
+                        <li className='list-iteam '> <span className='me-lg-3 fs-lg-4 fs-5 text-primary'><i className='fa fa-edge'></i></span> <span className='fs-sm-6'>Web: https://www.jasonburns.com</span></li>
+                        <li className='list-iteam '><span className='me-3 fs-lg-4 text-primary'><i className='fa fa-phone'></i></span><span className='fs-sm-6'> Phone: 01775832654</span> </li>                       
                     </ul>
 
                 </div>

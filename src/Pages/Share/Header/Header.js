@@ -14,7 +14,7 @@ const Header = () => {
         signOut(auth);
     }
     return (
-        <Navbar className='py-4 fs-4 navbar-bg' expand="lg">
+        <Navbar className='py-4 fs-4 navbar-bg' sticky='top' expand="lg">
             <Container>
                 <Navbar.Brand as={Link} to="/" className='fs-3 fw-bold'>JASON BURNS</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />

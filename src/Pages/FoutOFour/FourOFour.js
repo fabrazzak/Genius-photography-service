@@ -1,10 +1,19 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import fourOfour from '../../images/about/Cute-404-page-not-found-design.jpg'
 
 const FourOFour = () => {
+    const navigate=useNavigate();
+    const handleOnclick=()=>{
+        navigate("/");
+
+    }
     return (
-        <div>
-            <h1>This is 404 pages </h1>
-            <h1>This pages not found </h1>
+        <div >
+            <div onClick={handleOnclick} className='d-flex fourOfour justify-content-center'>
+                <img src={fourOfour} alt="" />
+                      
+            </div>
         </div>
     );
 };
