@@ -25,13 +25,14 @@ const Home = () => {
                         }
                     </div>
                     <div>
-                        <Link to="services"> <button className='btn-lg  w-25 mx-auto btn-link bg-white text-decoration-none border-0 d-block my-4'>Show All....</button></Link>
+                        <Link to="services" className='text-decoration-none'> <button className='btn-lg   mx-auto btn-link bg-white  border-0 d-block my-4'>Show All....</button></Link>
                     </div>
                 </section>
             </div>
             <ContactForm>
                 
             </ContactForm>
+         
 
             
         </>

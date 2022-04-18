@@ -1,16 +1,20 @@
 import React, { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import useServices from '../../Hooks/useServices';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 
 const CheckOut = () => {
     const {servicesId}=useParams();
+    const navigate=useNavigate();
     const [user, loading, error] = useAuthState(auth);
   const handleSubmit=event=> {
         event.preventDefault();
+      navigate('/proceed');
+      
+
     }
-    
+   
    
     return (
         <div>
@@ -31,12 +35,12 @@ const CheckOut = () => {
                    <input type="text" className='form-control fs-5' name="location" placeholder='Your Location' id=""  required/>
                </div>
                <div className="input-groupe">
-                   <input type="text" className='form-control fs-5' name="location" placeholder='Add Debit or Credit card number' id=""  required/>
+                   <input type="text" className='form-control fs-5' name="card" placeholder='Add Debit or Credit card number' id=""  required/>
                </div>
                <div className="input-groupe">
-                   <input type="text" className='form-control fs-5' name="location" placeholder='Security Code ' id=""  required/>
+                   <input type="text" className='form-control fs-5' name="code" placeholder='Security Code ' id=""  required/>
                </div>
-               <button type="submit" className='btn-primary btn-lg w-50 mx-auto d-block mt-2'>Proceed</button>
+               <button  type="submit" className='btn-primary btn-lg w-50 mx-auto d-block mt-2'>Proceed</button>
               
            </form>
         </div>

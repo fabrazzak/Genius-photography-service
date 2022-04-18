@@ -15,6 +15,8 @@ import FourOFour from './Pages/FoutOFour/FourOFour';
 import auth from './firebase.init';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
+import Proceed from './Pages/LogIn/Proceed/Proceed';
+import ForgetPassword from './Pages/LogIn/ForgetPassword/ForgetPassword';
 
 function App() {
   
@@ -37,8 +39,10 @@ function App() {
         <Route path='about' element={<About></About>}></Route>
         <Route path='blogs' element={<Blogs></Blogs>}></Route>
         <Route path='contact' element={<Contact></Contact>}></Route>
+        <Route path='proceed' element={<Proceed></Proceed>}></Route>
         <Route path='login' element={<Login></Login>}></Route>
         <Route path='signin' element={<Signin></Signin>}></Route>
+        <Route path='resetpassword' element={<ForgetPassword></ForgetPassword>}></Route>
         <Route path='*' element={<FourOFour></FourOFour>}></Route>
 
        
