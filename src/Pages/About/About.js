@@ -15,7 +15,7 @@ const About = () => {
                         <h4 className='fst-italic text-info '>and more</h4>
                     </div>
                     <p className='mx-lg-5 '>
-                        My name is Abdur Razzak.My dream is to build a career as a professional full-stack web developer.I want to work as hard as a full-stack web developer.I am currently working as a WordPress developer at Upwork Marketplace. </p>
+                        Hello, I am a professional and skilled Web Developer.I develop websites in React single pages application and  a CMS named WordPress.As for programming languages, I am skilled at HTML, CSS,Tailwind,Javascript,React.js ,Node.js, Express.js,MongoDB,Daisy tailwind library, PHP,Wordpress, JS, Jquery, and Bootstrap.Each website I make will be responsive and will load fast.I am working at Upwork market place and fiver market place. </p>
                 </div>
             </div>
         </div>
